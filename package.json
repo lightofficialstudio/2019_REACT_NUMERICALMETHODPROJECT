@@ -1,27 +1,33 @@
 {
-  "name": "pjnumer",
+  "name": "newmer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.6.0",
+    "mathjs": "^6.6.5",
+    "plotly.js": "^1.58.4",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.5.2",
+    "react-delay": "^0.1.0",
+    "react-dom": "^16.14.0",
+    "react-plotly.js": "^2.5.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.3.0",
+    "recharts": "^2.0.9",
+    "tailwind-react-ui": "^0.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "stop": "killall -SIGINT this-name-can-be-as-long-as-it-needs-to-be",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -34,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.13.13"
   }
 }
