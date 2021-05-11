@@ -43,7 +43,7 @@ class App extends React.Component {
                 <b>NUMERICAL METHOD</b>
                 </div>
                 <div className="center APPtexthead2">
-                <p>นิวเมอร์ นรกที่คุณสร้างสรรค์เอง</p>
+                <p>นิวเมอร์ นรกที่คุณสร้างสรรค์เอง TT</p>
                 </div>
                 <br/><div>
                 </div>
